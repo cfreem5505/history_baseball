@@ -1,58 +1,181 @@
 <!DOCTYPE html>
 
 <html> 
-<head>
-    <title>The History of Baseball</title> 
-    <link rel="stylesheet" href="main.css"> 
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet"> 
-
-
-
-
-</head> 
-<body><h1><u>The History of Baseball</u></h1></body> 
-
-
-<body>
-<h2><li>Early History of the MLB</li></h2> 
-    <p>Major League Baseball (MLB) is a professional baseball organization, the oldest of the four major professional sports leagues in the United States and Canada.
-        Major League Baseball has been around for about 149 years beginning in 1869. The Cinncinati Reds were the first team founded in that year.  A total of 30 teams 
-        play in the National League (NL) and American League (AL), with 15 teams in each league. The NL and AL were formed as separate legal entities in 1876 and 1901
-        respectively. After cooperating but remaining legally separate entities beginning in 1903, the leagues merged into a single organization led by the Commissioner
-        of Baseball in 2000. Founded on February 2, 1876, to replace the National Association of Professional Base Ball Players (NAPBBP) of 1871–1875, 
-        (often called simply the "National Association"), the NL is sometimes called the Senior Circuit, in contrast to MLB's other league, the American League of Professional
-        Base Ball Clubs ("American League"), which was founded 25 years later. Both leagues currently have 15 teams.</p>
-</body>
-
-<body> 
-<h3><u>Changes in Baseball Over The Years</u></h3>
-<p>The baseball glove is one of the major things that has changed in the game of baseball.</p>
-<p><img src="gloves.jpg" alt="Gloves" width="256" height="256"> </p>
-<p>In today's game players will do crazy celebrations such as bat flips.</p>
-<p><img src="jose.gif"></p>
-
-
-
-
-</body>
-
+  <head>
+    <title>History of Baseball</title>
+    <header><b><u>The History of Baseball</u></b></header>  
+      <link rel="stylesheet" href="main.css">
+    
+  </head>
+    
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
       
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+      
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+      
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        var captionText = document.getElementById("caption");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        captionText.innerHTML = dots[slideIndex-1].alt;
+      }
+      </script>
+  </head>
+
+  <body onload="currentSlide(1)">
+
+    <h1><b>History of Little League</b></h1>
+        <p>Carl Stotz, a resident of Williamsport, Pennsylvania, founded Little League Baseball in 1939. He began experimenting with his idea in the summer of 1938 when he gathered his
+       nephews, Jimmy and Major Gehron and their neighborhood friends. They tried different field dimensions over the course of the summer and played several informal games. The 
+       following summer Stotz felt that he was ready to establish what later became Little League Baseball. The first league in Williamsport had just three teams, each sponsored
+       by a different business. The first teams, Jumbo Pretzel, Lycoming Dairy, and Lundy Lumber, were managed by Carl Stotz and two of his friends, George and Bert Bebble. Today, Little League
+       Baseball gives many kids the chance to play baseball. It is a starting point for many young kids who look to play baseball when they get older. Kids that are 4-7 play Tee Ball.
+       Kids who are 7-12 can play Coaches Pitch and Kids who are 9-12 can play Kids Pitch where they have a chance at making the Little League World Series. The LLWS is one of the most
+       prestigous events for young kids, as it is aired on TV where people from all over the world can watch. Today, in the LLWS there are teams from all over the world including the US Regions:
+       New England, Great Lakes, Mid-Atlantic, Midwest, Southeast, Southwest, Northwest (including Alaska), West (including Hawaii). The international regions include:
+       Canada, Mexico, Asia-Pacific,Japan, Europe and Africa, Australia, Latin America, and Caribbean.  After little league many kids tryout for their high school teams with hopes of representing their varsity team. 
+       Players also play on travel ball teams that can have kids from all over the country, and they also play in tournaments all over the country.
+       </p>
+       <div class="nav">
+          <div class="container">
+            <ul class="pull-left">
+              <li><a href="https://en.wikipedia.org/wiki/Little_League_World_Series#Little_League_World_Series_champions"> LLWS All Time Champions</a></li>
+            </ul>
+            
+            
+
+     
+    <h1><b>History of College Baseball</b></h1>
+        <P>The first intercollegiate baseball game took place in Pittsfield, Massachusetts, on July 1, 1859, between squads representing Amherst College and Williams College. Amherst won, 73–32.
+           This game was one of the last played under an earlier version of the game known as "Massachusetts rules", which prevailed in New England until the "Knickerbocker Rules" (or "New York Rules")
+           developed in the 1840s gradually became accepted.[1] The first ever nine-man team college baseball game under the Knickerbocker Rules still in use today was played in New York on November 3, 1859
+           between the Fordham Rose Hill Baseball Club of St. John's College (now Fordham University) against The College of St. Francis Xavier, now known as Xavier High School. The Massachusetts Rule consisted of the absence of foul territory, which
+           allowed a skillful striker to literally "use the whole field" when he put the ball in play. One of a striker's greatest skills (writes David Block) was to tip the ball back over the catcher's head.
+           The rules allowed 10 to 14 players on a side, to help cover the whole field. But put-outs were hard to come by, so the rule was "one out, all out" - a team's inning ended when one player was put out.
+           Runs were plentiful. The rules declared the winner to be the first team to score 100 runs. Today there are about 299 Division I, 274 Division II, 362 Division III, 501 Junior College, and 188 NAIA baseball programs. Many of the 
+          most talented players; however, get drafted straight out of high school. Today the College World Series is every teams ultimate goal. The College World Series is played in Omaha, Nebraska, but the first three years it was played in Kalamazoo, Michigan in 
+          1947 and 1948 and in Wichita, Kansas in 1949. It has been held in Omaha, Nebraska since 1950 with a change from Rosenblatt Stadium to the current TD Ameritrade Park. All time champions of all divisions of college baseball is attached below. </P>
+          <div class="nav">
+              <div class="container">
+                <ul class="pull-left">
+                  <li><a href="https://www.ncaa.com/history/baseball/d1">D1 Champions</a></li>
+                  <li><a href="https://www.ncaa.com/history/baseball/d2">D2 Champions</a></li>
+                </ul>
+                <ul class="pull-right">
+                  <li><a href="https://www.ncaa.com/history/baseball/d3">D3 Champions</a></li>
+                  <li><a href="https://www.baseball-reference.com/bullpen/NJCAA_Division_I_Baseball_World_Series">JUCO Champions</a></li>
+                  <li><a href="http://www.naia.org/fls/27900/1NAIA/SportsInfo/Championships/BSB_Championship.pdf">NAIA Champions</a></li>
+                </ul>
+              </div>
+            </div>
+
+    <h1><b>History of the MLB</b></h1> 
+        <p>Major League Baseball (MLB) is a professional baseball organization, the oldest of the four major professional sports leagues in the United States and Canada.
+            Major League Baseball has been around for about 149 years beginning in 1869. The Cinncinati Reds were the first team founded in that year.  A total of 30 teams 
+            play in the National League (NL) and American League (AL), with 15 teams in each league. The NL and AL were formed as separate legal entities in 1876 and 1901
+            respectively. After cooperating but remaining legally separate entities beginning in 1903, the leagues merged into a single organization led by the Commissioner
+            of Baseball in 2000. Founded on February 2, 1876, to replace the National Association of Professional Base Ball Players (NAPBBP) of 1871–1875, 
+            (often called simply the "National Association"), the NL is sometimes called the Senior Circuit, in contrast to MLB's other league, the American League of Professional
+            Base Ball Clubs ("American League"), which was founded 25 years later. Both leagues currently have 15 teams.
+           </p>
+
+           <div class="nav">
+              <div class="container">
+                <ul class="pull-left">
+                  <li><a href="mlb_winners_alltime.html">Who has the most World Series Championships?</a></li>
+                  <li><a href=" http://www.espn.com/mlb/worldseries/history/winners">Champions Year by Year</a></li>
+                 </ul>
+                </div>
+              </div>
+                
+      
+  <h1 style="text-align:center">The Progression of a Young Baseball Player</h1>
+  
+  <div class="container">
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="little_league.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="high_school.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="college_baseball.jpg" style="width:100%">
+    </div>
+      
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="mlb_baseball.jpg" style="width:100%">
+    </div>
+      
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+  
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="little_league.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Early Years">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="high_school.jpg" style="width:100%" onclick="currentSlide(2)" alt="High School Baseball">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="college_baseball.jpg" style="width:100%" onclick="currentSlide(3)" alt="College Baseball">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="mlb_baseball.jpg" style="width:100%" onclick="currentSlide(4)" alt="The Pros">
+    </div>
+    </div>
+    </div>
+
+      <br>
+      <br>
+  <h1>Many players do crazy celebrations such as Bat Flips</h1>
+  <img src="jose.gif" alt="Bat Flip" style="width:50%;" class=center>
 
 
 
 
+<h1><u>How Technology has Changed the Game of Baseball</u></h1>
+<p>Technology is probably the thing that has changed the game of baseball the most. When baseball was first played, players barely had a "glove" or a "bat" like players do
+    and now in today's game players have the most advanced equipment anyone has ever seen. The technology is crazy... There are radar guns that measure exit velocity of the bat,
+     pitching velo, and velocity from any position, as a tool to be evaluated by coaches at the next level. Today's game is using numbers like never before. There are many other 
+     measuring tools that are pretty much not even necessary such as bat speed impact, hand speed max, time to impact, bat vertical angle at impact, attack angle, launch angle, etc.
+     Many companies such as Blast Motion and Zepp Baseball have almost introduced these new measuring tools, and they use it to make money and preach that looking at the numbers will 
+     make you a better player when all YOU have to do is PLAY. 
+</p>
 
 
 
 
-
-
- 
-<body>
-
-<p><a href= "http://www.espn.com/mlb/worldseries/history/winners"> World Series Champions</a>
+</body>
+</html>
+    
 
 
 
-    <a href= "mlb.winners.alltime.html">Championship Numbers</a></p>    
-    <p></p>
